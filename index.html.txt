@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goutham Reddy Potlacheruvu - Data Engineer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Goutham Reddy Potlacheruvu</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Data Engineer | Cloud Solutions Specialist</p>
+    </section>
+
+    <!-- Projects -->
+    <section class="my-projects" id="projects">
+        <h2 class="section__title section__title--projects">My Projects</h2>
+
+        <div class="projects">
+            <div class="project">
+                <h3>Real-Time Data Processing Dashboard</h3>
+                <p>Developed a real-time dashboard using Power BI and Azure Data Factory to visualize 20GB of data processed daily, optimizing data ingestion pipelines with PySpark and improving reporting efficiency by 30%.</p>
+            </div>
+            <div class="project">
+                <h3>Data Lakehouse Architecture</h3>
+                <p>Built a scalable Data Lakehouse architecture on Azure, integrating Databricks, Synapse, and ADLS, leveraging the Medallion architecture for efficient processing of structured and semi-structured data.</p>
+            </div>
+            <div class="project">
+                <h3>ETL Pipeline Optimization</h3>
+                <p>Designed ETL pipelines using SSIS, Azure Data Factory, and AWS Glue to integrate data from SQL Server, MySQL, and Snowflake. Optimized performance and reduced data latency by 30%.</p>
+            </div>
+            <div class="project">
+                <h3>Cloud-Based API Development</h3>
+                <p>Created REST APIs for integrating various cloud platforms (AWS and Azure) using FastAPI and Python, resulting in a 25% reduction in response times and improved data consistency across platforms.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">About Me</h2>
+        <p class="section__subtitle section__subtitle--about">Experienced Data Engineer</p>
+        
+        <div class="about-me__body">
+            <p>I have over 5 years of experience as a Data Engineer, specializing in designing and implementing scalable ETL pipelines, cloud-based architectures, and data visualization solutions. My expertise spans across various cloud platforms, including Azure, AWS, and tools such as Databricks, Snowflake, and Power BI.</p>
+            <p>I've successfully worked on projects involving real-time data processing, large-scale data migrations, and automating data workflows, enabling businesses to derive actionable insights from their data. I am passionate about leveraging technology to solve complex data problems and improve operational efficiency.</p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <h2 class="section__title section__title--skills">My Skills</h2>
+        <ul class="skills-list">
+            <li>Python</li>
+            <li>SQL (T-SQL, MySQL, PostgreSQL)</li>
+            <li>Apache Spark, PySpark</li>
+            <li>Azure Data Factory, AWS Glue, SSIS</li>
+            <li>Databricks, Snowflake</li>
+            <li>Power BI, Tableau</li>
+            <li>Docker, Kubernetes, Terraform</li>
+        </ul>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2 class="section__title section__title--contact">Contact Me</h2>
+        <a href="mailto:gouthamreddyp09@gmail.com" class="contact__email">gouthamreddyp09@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/gouthamreddy-potlacheruvu/">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/gouthamreddy09">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
